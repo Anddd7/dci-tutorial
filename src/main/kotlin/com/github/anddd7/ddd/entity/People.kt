@@ -23,7 +23,7 @@ data class People(
 
     fun eat() {
         println("$identityCard is eating")
-        account?.run { balance-- }
+        account.run { balance-- }
     }
 
     fun sleep() {
@@ -36,7 +36,7 @@ data class People(
 
     fun work() {
         println("$identityCard is working")
-        account?.run { balance++ }
+        account.run { balance++ }
     }
 
     fun offline() {
@@ -45,7 +45,7 @@ data class People(
 
     fun buyTicket() {
         println("$identityCard is buying ticket")
-        account?.run { balance-- }
+        account.run { balance-- }
     }
 
     fun enjoy() {
